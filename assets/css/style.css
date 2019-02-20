@@ -5,7 +5,8 @@
 }
 
 body{
-	/*height: 100vh;*/
+	height: 100%;
+	width: 100%;
 	background-image: url(../images/bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -14,8 +15,17 @@ body{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
+	/*overflow: hidden !important;*/
 }
-
+.container{
+	margin: 10vh 10vw;
+	height: 80vh;
+	width: 80vw;
+	box-shadow: 2px 2px 40px grey;
+	padding: 20px;
+	border: 3px groove #c3a663;
+	border-radius: 20px;
+}
 input,
 button{
 	width: 100%;
@@ -34,29 +44,29 @@ button:active{
 }
 
 #left{
-	margin-top: 10vh;
+	/*margin-top: 10vh;*/
 	/*background-color: #c9e9e4;*/
-	background-color: transparent;
-	border-top: 3px groove #c3a663;
-	border-bottom: 3px groove #c3a663;
-	border-left: 3px groove #c3a663;
-	height: 80vh;
-	padding-top: 30px;
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
+	/*background-color: transparent;*/
+	/*border-top: 3px groove #c3a663;*/
+	/*border-bottom: 3px groove #c3a663;*/
+	/*border-left: 3px groove #c3a663;*/
+	/*height: 80vh;*/
+	/*padding-top: 30px;*/
+	/*border-top-left-radius: 10px;*/
+	/*border-bottom-left-radius: 10px;*/
 }
 
 #right{
-	margin-top: 10vh;
+	/*margin-top: 10vh;*/
 	/*background-color: #f8bcbb;*/
-	background-color: transparent;
-	border-top: 3px groove #c3a663;
-	border-bottom: 3px groove #c3a663;
-	border-right: 3px groove #c3a663;
-	height: 80vh;
-	padding-top: 30px;
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
+	/*background-color: transparent;*/
+	/*border-top: 3px groove #c3a663;*/
+	/*border-bottom: 3px groove #c3a663;*/
+	/*border-right: 3px groove #c3a663;*/
+	/*height: 80vh;*/
+	/*padding-top: 30px;*/
+	/*border-top-right-radius: 10px;*/
+	/*border-bottom-right-radius: 10px;*/
 }
 
 #congrats,
